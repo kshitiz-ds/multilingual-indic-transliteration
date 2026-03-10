@@ -1,0 +1,27 @@
+#Model
+models/
+checkpoint-*/
+*.bin
+*.pt
+*.h5
+*.safetensors
+#Data
+data/*.csv
+data/*.zip
+data/*.json
+*.csv
+#Virtual environment
+__pycache__/
+*.py[cod]
+*$py.class
+env_devnagri/
+.env
+.ipynb_checkpoints/
+#logs
+*.log
+training_log.out
+nohup.out
+.DS_Store
+Thumbs.db
+eval_sample.md
+eval_sample.csv
